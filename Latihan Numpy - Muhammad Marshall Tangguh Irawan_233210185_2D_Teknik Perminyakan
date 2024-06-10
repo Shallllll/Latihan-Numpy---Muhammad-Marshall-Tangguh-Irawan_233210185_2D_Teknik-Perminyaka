@@ -1,0 +1,68 @@
+1
+
+# Perkalian Matrix
+# TTL   : 30 April 2006
+# No Hp : 0895639393953
+
+import numpy as np
+
+A = np.array([[3,0],[0,4],[0,6]])
+B = np.array([[3,9],[3,9],[5,3]])
+
+kali = A * B
+print(kali)
+
+2
+# Pengurangan Matrix
+
+import numpy as np
+
+A = np.array([[3,0],[0,4],[0,6]])
+B = np.array([[3,9],[3,9],[5,3]])
+
+kurang = A - B
+print(kurang)
+
+3
+# Transpose Matrix
+
+import numpy as np
+
+A = np.array([[3,0],[0,4],[0,6]])
+B = np.array([[3,9],[3,9],[5,3]])
+
+transpose_A = np.transpose(A)
+transpose_B = np.transpose(B)
+
+print(transpose_A)
+print(transpose_B)
+
+4
+# Nilai Invers
+
+import numpy as np
+
+A = np.array([[3,0],[0,4]])
+B = np.array([[3,9],[3,9]])
+
+
+invers_A = np.linalg.inv(A)
+invers_B = np.linalg.inv(B)
+
+print("\nInvers matrix A :")
+print("\nInvers matrix B :")
+print(invers_A)
+print(invers_B)
+
+5
+# Nilai Determinan
+
+import numpy as np
+
+A = np.array([[3,0],[0,4],])
+B = np.array([[3,9],[3,9],])
+
+determinant_A = np.linalg.det(A)
+determinant_B = np.linalg.det(B)
+print("Determinan dari matrix A:", determinant_A)
+print("Determinan dari matrix B:", determinant_B)
